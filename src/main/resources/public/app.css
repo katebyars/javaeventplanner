@@ -1,0 +1,30 @@
+h1, h2, h3, h4 {
+  font-family:sans-serif;
+}
+
+h3, .form-group {
+  font-size: 24px;
+  color: 	white;
+  margin: 5 px;
+}
+
+h1 {
+     font-size: 44px;
+     color: 	white;
+   }
+
+body {
+  background-color: #a1dfff;
+  background-image: url("images/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.btn {
+    margin: 10px;
+}

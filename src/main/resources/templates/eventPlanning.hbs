@@ -1,0 +1,15 @@
+{{#partial "title" }}
+  Your event:
+{{/partial}}
+
+{{#partial "content"}}
+
+<h1>Party Details</h1>
+<h3>Guest number: {{ guestCount }}</h3>
+<h3>Beverage type: {{ beverage }}</h3>
+<h3>Food Type: {{ food }}</h3>
+<h3>Entertainment: {{ entertainment }}</h3>
+<h3>Your total price is : ${{ totalPrice }}</h3>
+
+{{/partial}}
+{{> layout.hbs}}
