@@ -1,0 +1,41 @@
+{{#partial "title" }}
+  Event!
+{{/partial}}
+
+<!--form.hbs.-->
+{{#partial "content"}}
+
+<h1>Please enter your event details!</h1>
+<form action='/eventPlanning'>
+  <div class="form-group">
+    <label for="guestCount">How many people will attend your event?</label>
+    <input class="form-control" type="number" id="guestCount" name="guestCount">
+    <p>Select your beverage choice</p>
+    <select class="form-control" id="beverage" name="beverage">
+      <option>Coffee</option>
+      <option>Tea</option>
+      <option>Kombucha</option>
+      <option>Water</option>
+    </select>
+    <p>Select your menu choice</p>
+    <select class="form-control" id="beverage" name="beverage">
+      <option>Hamburgers</option>
+      <option>Asian Food</option>
+      <option>Appetizers Only</option>
+      <option>Indian Buffet</option>
+    </select>
+    <p>Select your entertainment choice</p>
+    <select class="form-control" id="beverage" name="beverage">
+      <option>DJ</option>
+      <option>Live band</option>
+      <option>Fire Eater</option>
+      <option>Dolphin Show</option>
+    </select>
+    <button type="submit" class="btn">Plan my event!</button>
+  </div>
+</form>
+
+<!--form.hbs.-->
+{{/partial}}
+
+{{> layout.hbs}}
